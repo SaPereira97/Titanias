@@ -17,45 +17,50 @@
 
     <link rel="icon" href="./resources/0.png" />
   </head>
+
   <body>
-
     <!-- SPA -->
-
     <div id="mainDiv">
-
-
       <!-- partial:index.partial.html -->
       <h1 class="title" id="title">Titania's Art</h1>
 
       <div id="about">
         something about me, my passing for anime and reasons to create this
-        </div>
+      </div>
 
-        <div id="app" class="container">
-          <a href="#/bestSellers">
-          <card id="img1" data-image="/resources/1.png" >
+      <div id="app" class="container">
+        <a href="#/bestSellers">
+          <card id="img1" data-image="/resources/1.png">
             <h1 slot="header">Bestsellers</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p slot="content">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
           </card>
         </a>
-          <card data-image="/resources/2.png">
-            <h1 slot="header">Latest products</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </card>
-          <card data-image="/resources/3.jpeg">
-            <h1 slot="header">Make your own</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </card>
-          <card data-image="/resources/4.jpeg">
-            <h1 slot="header">Social media</h1>
-            <p slot="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          </card>
-        </div>
+
+        <card data-image="/resources/2.png">
+          <h1 slot="header">Latest products</h1>
+          <p slot="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </card>
+        <card data-image="/resources/3.jpeg">
+          <h1 slot="header">Make your own</h1>
+          <p slot="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </card>
+        <card data-image="/resources/4.jpeg">
+          <h1 slot="header">Social media</h1>
+          <p slot="content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </card>
+      </div>
+
       <!-- partial -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js"></script>
       <script src="./script.js"></script>
     </div>
-
-
   </body>
 </html>

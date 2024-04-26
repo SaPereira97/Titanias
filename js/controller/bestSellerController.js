@@ -6,7 +6,6 @@ function init() {
 
 document.addEventListener('DOMContentLoaded', function () {
   $('#img1').on('click', function () {
-    console.log("Image clicked");
     init();
   });
 });

@@ -1,7 +1,7 @@
 import homeView from '/js/view/homeView.js';
 
 function init() {
-  homeView.showHome();
+  homeView.showView();
 }
 
 export default { init };

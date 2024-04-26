@@ -1,5 +1,3 @@
-function showHome() {
+function showView() {}
 
-  }
-  
-  export default { showHome };
+export default { showView };
