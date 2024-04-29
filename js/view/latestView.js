@@ -27,7 +27,7 @@ function showView() {
             <h2 class="title">Explore The Galaxy</h2>
             <p class="copy">Seriously, straight up, just blast off into outer space today</p><button class="btn">Book Now</button></div>
     </div>
-</main>; ` 
+</main> `;
 }
 
 export default { showView };
