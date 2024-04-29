@@ -1,12 +1,13 @@
 function showView() {
-  var body = document.getElementById("mainDiv");
-  body.innerHTML = "";
+  var body = document.getElementById('mainDiv');
+  body.innerHTML = '';
 
-  body.innerHTML = `<link rel="stylesheet" href="./css/view.css" />
-  
-  <h1 class="title" id="title">Titania's Art</h1>
+  body.innerHTML = `<h1 class="title" id="art">Titania's Art</h1>
+
+<link rel="stylesheet" href="./css/view.css" />
 
   <main class="page-content">
+
     <div class="card">
         <div class="content">
             <h2 class="title">Mountain View</h2>

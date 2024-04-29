@@ -12,8 +12,9 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700"
     />
-    <link rel="stylesheet" href="/css/style.css" />
     <script type="module" src="/js/index.js"></script>
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <link rel="icon" href="/resources/icon.png" />
   </head>
@@ -22,7 +23,7 @@
     <!-- SPA -->
     <div id="mainDiv">
       <!-- partial:index.partial.html -->
-      <h1 class="title" id="title">Titania's Art</h1>
+      <h1 class="title" id="art">Titania's Art</h1>
 
       <div id="about">
         something about me, my passing for anime and reasons to create this
@@ -71,32 +72,55 @@
       <script src="./script.js"></script>
 
       <div id="footer">
-        <a href="https://www.instagram.com/titanias.art/?hl=pt">
-          <img id="insta" src="/resources/insta.png" alt="Instagram" />
-        </a>
+        <footer class="footer">
+          <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+          </div>
 
-        <div id="foot">
-          <p>
-            -------------------------------------------------------------------
-          </p>
-          <p>This website was developed by 4 junior fullstack developers</p>
-          <p>We would appreciate if anyone could share our work</p>
-        </div>
+          <ul class="social-icon">
+            <li class="social-icon__item">
+              <a
+                class="social-icon__link"
+                href="https://www.instagram.com/titanias.art/?hl=pt"
+              >
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-        <div id="github">
-          <a href="https://github.com/CarlosMinhos"
-            ><img src="/resources/carlos.png" alt="Carlos" class="footer-icon"
-          /></a>
-          <a href="https://github.com/CarlosMinhos"
-            ><img src="/resources/carlos.png" alt="Juan" class="footer-icon"
-          /></a>
-          <a href="https://github.com/pedroMoreira96"
-            ><img src="/resources/zeca.png" alt="Ricardo" class="footer-icon"
-          /></a>
-          <a href="https://github.com/SaPereira97"
-            ><img src="/resources/zeca.png" alt="Zeca" class="footer-icon"
-          /></a>
-        </div>
+            <li class="menu__item">|| Web design by:</li>
+
+            <li class="menu__item">
+              <a class="menu__link" href="https://github.com/CarlosMinhos"
+                >Carlos</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="https://github.com/Chispa8">Juan</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="https://github.com/OliveiraDevCode"
+                >Ricardo</a
+              >
+            </li>
+            <li class="menu__item">
+              <a class="menu__link" href="https://github.com/SaPereira97"
+                >Zeca</a
+              >
+            </li>
+          </ul>
+        </footer>
+
+        <script
+          type="module"
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+          nomodule
+          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
       </div>
     </div>
   </body>

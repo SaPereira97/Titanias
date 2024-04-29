@@ -4,7 +4,7 @@ function showView() {
 
 
 
-  body.innerHTML = `<h1 class="title" id="title">Titania's Art</h1>
+  body.innerHTML = `<h1 class="title" id="art">Titania's Art</h1>
 
   <link rel="stylesheet" href="/css/view.css" />
 
