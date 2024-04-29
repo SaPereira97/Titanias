@@ -11,13 +11,13 @@ export default {
         path: "/latest",
         controller: "latestController",
     },
+    list: {
+        path: "/list",
+        controller: "listController",
+    },
     customize: {
         path: "/customize",
         controller: "customizeController",
-    },
-    socialMedia: {
-        path: "/socialMedia",
-        controller: "socialMediaController",
     },
     currentPath: {
         path: "",
