@@ -23,4 +23,4 @@ export default {
         path: "",
         controller: "",
     }
-};
+};  
