@@ -1,26 +1,26 @@
 export default {
-    home: {
-        path: "/",
-        controller: "homeController",
-    },
-    bestSeller: {
-        path: "/bestSellers",
-        controller: "bestSellerController",
-    },
-    latest: {
-        path: "/latest",
-        controller: "latestController",
-    },
-    customize: {
-        path: "/customize",
-        controller: "customizeController",
-    },
-    socialMedia: {
-        path: "/socialMedia",
-        controller: "socialMediaController",
-    },
-    currentPath: {
-        path: "",
-        controller: "",
-    }
+  home: {
+    path: "/",
+    controller: "homeController",
+  },
+  bestSeller: {
+    path: "/bestSellers",
+    controller: "bestSellerController",
+  },
+  latest: {
+    path: "/latest",
+    controller: "latestController",
+  },
+  list: {
+    path: "/list",
+    controller: "listController",
+  },
+  customize: {
+    path: "/customize",
+    controller: "customizeController",
+  },
+  currentPath: {
+    path: "",
+    controller: "",
+  },
 };
